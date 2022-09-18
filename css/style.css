@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@1,700&display=swap');
+
+@font-face {
+	font-family:"DeusEx";
+	src: url("../fonts/DeusEx.woff2") format("woff2"), url("../fonts/DeusEx.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+body{
+    font-family: "DeusEx";
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.2;
+    
+}
+
+.introduction p{
+    text-transform: uppercase;
+}
+
+h1{
+    font-size: 30px;
+    color: blue;
+    text-shadow: 3px 2px 4px blueviolet;
+    margin-bottom: 10px;
+}
+
+h2{
+    font-size: 20px;
+    color: blue;
+    text-shadow: 3px 2px 3px blueviolet;
+    text-align: center; 
+    margin-bottom: 10px;
+}
+
+
+
+h4{
+    font-family: 'Philosopher', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    font-style: italic;
+    
+}
+
+ol,
+a{
+    color: red;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+p{
+    margin-bottom: 25px;
+    padding: 20px;
+    text-indent: 20px;
+    
+}
+
+.image-block,
+.video-block{
+    text-align: center;
+    
+}
+
+.image-block h2,
+.video-block h2{
+    color: brown;
+    text-shadow: 3px 2px 3px #d15050;
+    margin-bottom: 10px;
+}
+
+
+
+
+.quote{
+    box-sizing: border-box;
+    font-family: 'Philosopher', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+    text-transform:capitalize;
+    letter-spacing: 5px;
+}
+
+.ortodocsal-cyberpunk{
+    white-space: nowrap;
+}
+
+.music-forever{
+    word-spacing: 15px;
+}
